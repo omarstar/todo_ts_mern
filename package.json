@@ -1,0 +1,27 @@
+{
+  "name": "fcc_todo_mern",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.ts",
+  "repository": "https://github.com/omarstar",
+  "author": "omstar",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.8",
+    "@types/express": "^4.17.8",
+    "@types/mongoose": "^5.7.37",
+    "@types/node": "^14.14.6",
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
